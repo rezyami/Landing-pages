@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'ClanOT-Medium';
+  src: url('ClanOT-Medium.eot') format('embedded-opentype');
+  src: url('ClanOT-Medium.woff') format('woff'), url('ClanOT-Medium.ttf')  format('truetype'), url('ClanOT-Medium.svg#ClanOT-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClanOT-News';
+  src: url('ClanOT-News.eot') format('embedded-opentype');
+  src:url('ClanOT-News.woff') format('woff'), url('ClanOT-News.ttf')  format('truetype'), url('ClanOT-News.svg#ClanOT-News') format('svg');;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClanOT-Book';
+  src: url('ClanOT-Book.eot') format('embedded-opentype');
+  src:url('') format('woff'), url('ClanOT-Book.ttf')  format('truetype'), url('ClanOT-Book.svg#ClanOT-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_12421">Text with this font applied</p> */
+.fontsforweb_fontid_12421 {
+    font-family: 'BRLNSR' !important;
+}
+#header{
+	background: url(../images/Homepage-onglet-Quizz-Aid-lkbir---WFC-v2_03.jpg) no-repeat;
+	height: 508px;
+    position: relative;
+}
+.container{
+    background: url(../images/bg.jpg);
+	width: 810px;
+	margin:0 auto;
+    position: relative;
+}
+.card{
+    position: absolute;
+    right: 35px;
+    bottom: -28px;
+}
+#reglment{
+    display: block;
+
+}
+#reglment, #media, #win{
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 750px;
+}
+#reglment h2{
+    color: #535353;
+    font-family: ClanOT-Medium;
+    font-size: 55px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    padding-top: 70px;
+    text-align: center;
+    text-transform: capitalize; 
+    width: 100%;
+}
+.content{
+    border: 1px solid #c6c7c9;
+    border-radius: 15px;
+    background: #fafafa;
+	text-align: center;
+    margin: 0 auto;
+    padding-top: 38px;
+    padding-bottom: 20px;
+    width: 787px;
+    /*background: #ebedef url(../images/Bg.jpg) no-repeat;*/
+
+}
+#content h1{
+	font-size: 24px;
+	color: #e30613;
+	font-family: back_to_school_medium;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.scroll-pane{
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    overflow: auto;
+    padding-right: 20px;
+    text-align: justify;
+    width: 580px;
+}
+.scroll-pane p{
+    font-family: ClanOT-News;
+    font-size: 17px;
+    color: #535353;
+}
+.scroll-pane span{
+    color:#a8a9aa;
+}
+.jspVerticalBar{
+    border-radius: 9px;
+}
+.scroll-pane h3:first-child{
+    margin-top: 0;
+}
+.scroll-pane h3{
+    font-family: ClanOT-News;
+    font-size: 17px;
+    color: #535353;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 45px;
+}
+.desc{
+    background: url(../images/Wafacash_Rda-walidine2_Onglet_05.png) no-repeat;
+    height: 310px;
+    position: relative;
+}
+.desc h1{
+    font-family: BRLNSR;
+    font-size: 42px;
+    font-weight: bolder;
+}
+#description{
+    color: #e53a3b;
+    display: block;
+    font-family: ClanOT-Medium;
+    font-size: 21px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 540px;
+}
+ul.menu{
+    border: 3px solid #e1e1e1;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 606px;
+}
+ul.menu li{
+    background: url(../images/bg-menu.png) repeat-x;
+    background-color: #efefef;
+    border: 1px solid #bababc;
+    color: #535353;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ClanOT-News;
+    font-size: 20px;
+    height: 38px;
+    padding-top: 12px;
+    text-align: center;
+    text-shadow:1px 1px 1px rgba(138, 27, 15, 0.5);
+    width: 200px;
+    margin: -2px;
+}
+ul.menu li:hover, ul.menu li.current{
+    background: url(../images/bg-hover.png) repeat-x;
+    color: #fff;
+}
+ul.menu li.current{
+    border-bottom: 2px solid #ff8704;
+}
+ul.menu li:first-child{
+    border-top-left-radius: 5px;  
+    border-bottom-left-radius: 5px;
+}ul.menu li:last-child{
+    border-top-right-radius: 5px;  
+    border-bottom-right-radius: 5px;
+}
+/*mediatheque*/
+#media{
+    padding-bottom: 160px;
+    /*display: none;*/
+}
+#media .items-media .item{
+    height: 155px;
+    width: 225px;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 30px;
+}
+#media .items-media .item .img-block{
+    position: relative;
+    border-radius: 7px;
+    border: 5px solid #bababc;
+    height: 120px;
+    width: 213px;
+}
+#media .items-media .item .img-block img{
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#media .items-media .item h4{
+    color: #e53a3b;
+    font-family: ClanOT-Medium;
+    font-size: 14px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+/*mediatheque*/
+
+/*winner*/
+#win{
+    /*display: none;*/
+}
+#win .winner{
+    width: 49%;
+    display: inline-block;
+}
+#win .winner h4{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #565656;
+    font-family: ClanOT-Book;
+    font-size: 21px;
+}
+#win .winner h4 span{
+    font-family: ClanOT-Medium;
+}
+/*winner*/
